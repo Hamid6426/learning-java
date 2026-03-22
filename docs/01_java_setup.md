@@ -54,6 +54,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.0.2+10-LTS-69, mixed mode, sharing)
 ## Environment Variable Setup
 
 ### JAVA_HOME setup
+
 This is not necassary but really helpful like setting environment variables ensures that the Java compiler (`javac - Compile .java files`) and the Java Runtime Environment (`java - Run compiled java files/classes`) are accessible from any terminal or command prompt on your system.
 
 - Copy the installation directory to clipboard
@@ -73,6 +74,7 @@ Variable value: `C:\Program Files\Java\jdk-25.0.2`
 - Click `OK`.
 
 ### Update the Path Variable
+
 This allows you to run Java commands without typing the full directory path.
 
 - In the same `Environment Variables` window, find the `Path` variable under `System variables` and click `Edit`.

@@ -1,6 +1,6 @@
 // src/ProjectOne.java
 
-public class ProjectOne {
+public class Main {
     public static void main(String[] args) {
 		System.out.println("Hamid First Java Code!");
 	}
