@@ -36,7 +36,7 @@ javac -d bin src/Main.java # Compile Main.java in the src directory
 ### Execution
 
 ```sh
-java -cp bin ProjectOne
+java -cp bin Main
 ```
 
 Glossary:

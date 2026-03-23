@@ -40,6 +40,26 @@ public class ProjectOne {
 public class Calculator {
 
     /**
+     * Emtry point of every java application
+     * Must be named public static void main(String[] args) {}
+     *
+     * public = JVM must be able to access it from outside the class.
+     * static = JVM calls it without creating an object.
+     * void = Returns nothing. JVM doesn’t expect a return value.
+     * main = Fixed name. Not optional.
+     * @param String[] Use to pass command line args
+     * @return expect nothing
+     */
+
+    public static void main(String[] args) {
+        Calculator calc = new Calculator();
+
+        System.out.println("Add: " + calc.add(10, 20));
+        System.out.println("Subtract: " + calc.subtract(20, 5));
+    }
+
+
+    /**
      * Adds two integers together.
      *
      * @param a The first integer to add.
